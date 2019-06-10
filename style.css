@@ -1,0 +1,27 @@
+body {
+	background: #fefefe;
+}
+
+.navigationHeader {
+	color: #1460aa;
+}
+
+.mainHeader {
+	color: dimgray;
+}
+
+.sectionHeader {
+	color: #1460aa;
+}
+
+.diaryHeader {
+	color: rgb(45, 13, 66);
+}
+
+.paragraph {
+	color: black;
+}
+
+.footer {
+	color: black;
+}
