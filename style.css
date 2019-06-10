@@ -1,5 +1,6 @@
 body {
 	background: #fefefe;
+	color: #333;
 }
 
 .navigationHeader {
@@ -15,7 +16,7 @@ body {
 }
 
 .diaryHeader {
-	color: rgb(45, 13, 66);
+	color: #0496FF;
 }
 
 .paragraph {
@@ -24,4 +25,8 @@ body {
 
 .footer {
 	color: black;
+}
+
+.link {
+	color: #1A936F;
 }
