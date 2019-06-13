@@ -42,3 +42,13 @@ body {
 	border: 3px solid #0496FF;
 	margin: 5px 5px 10px 10px;
 }
+
+.box {
+	width: 100px;
+	height: 100px;
+	background: yellowgreen;
+	padding: 10px;
+	border: 10px solid red;
+	margin: 10px;
+	box-sizing: border-box;
+}
