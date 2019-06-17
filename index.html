@@ -21,29 +21,29 @@
 		<a class="link" href="week/sunday.html">Niedziela</a>
 	</header>
 	<main class="main">
-		<header>
-			<h1 class="mainHeader">
+		<header class="header">
+			<h1 class="header__title">
 				Łukasz Ruszczyk - Strona domowa
 			</h1>
 		</header>
-		<section class="who-am-i" id="who-am-i">
-			<div class="box">Co ten frontend</div>
-			<div class="box__js"></div>
-			<h2 class="sectionHeader">Kim jestem?</h2>
-			<p class="paragraph">
+		<section class="about" id="about">
+			<div class="about__box">Co ten frontend</div>
+			<div class="about__box--js"></div>
+			<h2 class="about__header">Kim jestem?</h2>
+			<p class="about__paragraph paragraph">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla. In
 				eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio volutpat,
 				vehicula arcu sed, eleifend lorem. Integer nec
 				leo ligula. In finibus nunc sodales, volutpat magna sit amet, feugiat tellus.
 			</p>
-			<a class="link" href="#diary">Przejdź do pamiętnika</a>
+			<a class="about__link link" href="#diary">Przejdź do pamiętnika</a>
 		</section>
 
-		<section id="diary">
-			<h2 class="sectionHeader">Pamiętnik</h2>
-			<section class="diarySection">
-				<h3 class="diaryHeader">Tworzenie HTML</h3>
-				<p class="paragraph">
+		<section class="diary" id="diary">
+			<h2 class="diary__header">Pamiętnik</h2>
+			<section class="day">
+				<h3 class="day__header">Tworzenie HTML</h3>
+				<p class="day__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla.
 					In eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio
 					volutpat, vehicula arcu sed, eleifend lorem. Integer nec
@@ -53,24 +53,11 @@
 					nisl rhoncus, sollicitudin dui ut, accumsan mi. Proin vitae nibh pharetra, porttitor erat ut, cursus
 					lectus. Suspendisse elementum auctor purus et sagittis.
 				</p>
-				<a class="link" href="week/monday.html">Przejdź do artykułu o pisaniu HTML-a</a>
+				<a class="day__link" href="week/monday.html">Przejdź do artykułu o pisaniu HTML-a</a>
 			</section>
-			<section class="diarySection">
-				<h3 class="diaryHeader">Tworzenie CSS</h3>
-				<p class="paragraph">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla.
-					In eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio
-					volutpat, vehicula arcu sed, eleifend lorem. Integer nec
-					leo ligula. In finibus nunc sodales, volutpat magna sit amet, feugiat tellus. Aenean eu urna
-					lacinia, maximus felis a, sollicitudin massa. Nunc ullamcorper dolor sed augue lacinia semper.
-					Vestibulum quis sapien nulla. Suspendisse ut
-					nisl rhoncus, sollicitudin dui ut, accumsan mi. Proin vitae nibh pharetra, porttitor erat ut, cursus
-					lectus. Suspendisse elementum auctor purus et sagittis.
-				</p>
-			</section>
-			<section class="diarySection">
-				<h3 class="diaryHeader">Tworzenie JS</h3>
-				<p class="paragraph">
+			<section class="day">
+				<h3 class="day__header">Tworzenie CSS</h3>
+				<p class="day__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla.
 					In eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio
 					volutpat, vehicula arcu sed, eleifend lorem. Integer nec
@@ -81,9 +68,9 @@
 					lectus. Suspendisse elementum auctor purus et sagittis.
 				</p>
 			</section>
-			<section class="diarySection">
-				<h3 class="diaryHeader">Tworzenie Testów Jednostkowych</h3>
-				<p class="paragraph">
+			<section class="day">
+				<h3 class="day__header">Tworzenie JS</h3>
+				<p class="day__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla.
 					In eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio
 					volutpat, vehicula arcu sed, eleifend lorem. Integer nec
@@ -94,9 +81,9 @@
 					lectus. Suspendisse elementum auctor purus et sagittis.
 				</p>
 			</section>
-			<section class="diarySection">
-				<h3 class="diaryHeader">Nauka Angular</h3>
-				<p class="paragraph">
+			<section class="day">
+				<h3 class="day__header">Tworzenie Testów Jednostkowych</h3>
+				<p class="day__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla.
 					In eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio
 					volutpat, vehicula arcu sed, eleifend lorem. Integer nec
@@ -107,9 +94,9 @@
 					lectus. Suspendisse elementum auctor purus et sagittis.
 				</p>
 			</section>
-			<section class="diarySection">
-				<h3 class="diaryHeader">Nauka React.JS</h3>
-				<p class="paragraph">
+			<section class="day">
+				<h3 class="day__header">Nauka Angular</h3>
+				<p class="day__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla.
 					In eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio
 					volutpat, vehicula arcu sed, eleifend lorem. Integer nec
@@ -120,9 +107,22 @@
 					lectus. Suspendisse elementum auctor purus et sagittis.
 				</p>
 			</section>
-			<section class="diarySection">
-				<h3 class="diaryHeader">Praca w Scrum</h3>
-				<p class="paragraph">
+			<section class="day">
+				<h3 class="day__header">Nauka React.JS</h3>
+				<p class="day__paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla.
+					In eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio
+					volutpat, vehicula arcu sed, eleifend lorem. Integer nec
+					leo ligula. In finibus nunc sodales, volutpat magna sit amet, feugiat tellus. Aenean eu urna
+					lacinia, maximus felis a, sollicitudin massa. Nunc ullamcorper dolor sed augue lacinia semper.
+					Vestibulum quis sapien nulla. Suspendisse ut
+					nisl rhoncus, sollicitudin dui ut, accumsan mi. Proin vitae nibh pharetra, porttitor erat ut, cursus
+					lectus. Suspendisse elementum auctor purus et sagittis.
+				</p>
+			</section>
+			<section class="day">
+				<h3 class="day__header">Praca w Scrum</h3>
+				<p class="day__paragraph">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac molestie est, sed eleifend nulla.
 					In eget pellentesque mauris. Pellentesque eget nisl eu justo rutrum malesuada. Maecenas at odio
 					volutpat, vehicula arcu sed, eleifend lorem. Integer nec
