@@ -10,3 +10,9 @@ console.log(box.innerHTML);
 
 const boxjs = document.querySelector('.about__box--js');
 boxjs.innerHTML = `Nazywam się ${name} i mam ${age} lata.☠️`;
+
+function myHello(namef, agef) {
+  console.log(`${namef} i mam ${agef}`)
+}
+
+myHello('lukasz', 35);
