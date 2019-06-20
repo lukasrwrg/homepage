@@ -1,9 +1,17 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
-	background: #fefefe;
+	background-image: linear-gradient( 359.3deg, rgba(196, 214, 252, 1) 1%, rgba(187, 187, 187, 0) 70.9%);
 	color: #333;
 }
 
-.navigationHeader {
+.site-header {
 	color: #1460aa;
 }
 
@@ -30,6 +38,21 @@ body {
 
 .link {
 	color: #1A936F;
+}
+
+.navigation__link {
+	color: #1A936F;
+}
+
+.navigation__list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.navigation__item {
+	justify-content: space-between;
 }
 
 .main {
