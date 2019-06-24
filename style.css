@@ -12,7 +12,13 @@ body {
 }
 
 .site-header {
-	color: #1460aa;
+	background: #fff;
+	box-sizing: border-box;
+	left: 0;
+	padding: 16px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .header__title {
@@ -52,7 +58,8 @@ body {
 }
 
 .navigation__item {
-	justify-content: space-between;
+	display: block;
+	margin: 0 16px;
 }
 
 .main {
